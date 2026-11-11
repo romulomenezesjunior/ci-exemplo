@@ -1,0 +1,21 @@
+{
+  "name": "ci-exemplo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "soma.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romulomenezesjunior/ci-exemplo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romulomenezesjunior/ci-exemplo/issues"
+  },
+  "homepage": "https://github.com/romulomenezesjunior/ci-exemplo#readme"
+}
