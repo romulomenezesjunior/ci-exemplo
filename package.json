@@ -5,7 +5,8 @@
   "main": "soma.js",
   "type": "module",
   "scripts": {
-    "test": "node --test"
+    "test": "node --test",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/romulomenezesjunior/ci-exemplo/issues"
   },
-  "homepage": "https://github.com/romulomenezesjunior/ci-exemplo#readme"
+  "homepage": "https://github.com/romulomenezesjunior/ci-exemplo#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.14.0",
+    "globals": "^17.14.0"
+  }
 }
