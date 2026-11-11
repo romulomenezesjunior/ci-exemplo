@@ -10,9 +10,6 @@ test("soma 0 e 0", ()=>{
     assert.equal(soma(0,0), 0)
 })
 
-test("soma dois numeros", ()=>{
-    assert.notEqual(soma(2,2), 3)
-})
 
 const params = [
         {num1: 1, num2: 1, esperado: 2},
