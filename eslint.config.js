@@ -1,5 +1,6 @@
-import js from '@eslint/js';
-import globals from 'globals';
+import js from "@eslint/js";
+import globals from "globals";
+import eslintConfigPrettier from "eslint-config-prettier/flat";
 
 export default [
   js.configs.recommended,
@@ -7,5 +8,13 @@ export default [
     languageOptions: {
       globals: globals.node,
     },
+    rules: {
+      eqeqeq: "error",
+      "no-var": "error",
+      "prefer-const": "error",
+      "no-console": "warn",
+      "no-unused-vars": ["error", { argsIgnorePattern: "^_" }],
+    },
   },
+  eslintConfigPrettier,
 ];
