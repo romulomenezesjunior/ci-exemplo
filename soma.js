@@ -1,5 +1,5 @@
 export function soma( a , b ){
-  let result = a + b;
-  return result;
+  let result;
+  return a + b;
 
 }
